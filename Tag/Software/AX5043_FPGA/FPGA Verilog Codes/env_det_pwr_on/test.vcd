@@ -1,0 +1,1240 @@
+$date
+	Thu Jun 04 15:51:37 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module SPI_mstr_tb $end
+$var wire 1 ! MISO $end
+$var wire 1 " MOSI $end
+$var wire 1 # SCLK $end
+$var wire 1 $ SS_n $end
+$var wire 1 % done $end
+$var wire 16 & rd_data [15:0] $end
+$var reg 1 ' clk $end
+$var reg 1 ( stm_rst_n $end
+$var reg 1 ) stm_wrt $end
+$var reg 16 * stm_wt_data [15:0] $end
+$scope module SPI_m $end
+$var wire 1 ! MISO $end
+$var wire 1 " MOSI $end
+$var wire 1 # SCLK $end
+$var wire 1 + clk $end
+$var wire 1 , done16 $end
+$var wire 16 - rd_data [15:0] $end
+$var wire 1 . rst_n $end
+$var wire 1 / wrt $end
+$var wire 16 0 wt_data [15:0] $end
+$var reg 1 1 SS_n $end
+$var reg 5 2 bit_cntr [4:0] $end
+$var reg 1 3 done $end
+$var reg 1 4 init $end
+$var reg 2 5 nxt [1:0] $end
+$var reg 1 6 set_done $end
+$var reg 16 7 shft_reg [15:0] $end
+$var reg 2 8 state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 8
+b0 7
+06
+bx 5
+04
+03
+b0 2
+11
+bx 0
+x/
+0.
+b0 -
+0,
+0+
+bx *
+x)
+0(
+0'
+b0 &
+0%
+1$
+0#
+0"
+z!
+$end
+#5
+b1 2
+b0 5
+1(
+1.
+1'
+1#
+1+
+#10
+0'
+0#
+0+
+#15
+b10 2
+1'
+1#
+1+
+#20
+0'
+0#
+0+
+#25
+b11 2
+1'
+1#
+1+
+#30
+0'
+0#
+0+
+#35
+b100 2
+1'
+1#
+1+
+#40
+0'
+0#
+0+
+#45
+b101 2
+1'
+1#
+1+
+#50
+0'
+0#
+0+
+#55
+b110 2
+1'
+1#
+1+
+#60
+0'
+0#
+0+
+#65
+b111 2
+1'
+1#
+1+
+#70
+0'
+0#
+0+
+#75
+b1000 2
+1'
+1#
+1+
+#80
+0'
+0#
+0+
+#85
+b1001 2
+1'
+1#
+1+
+#90
+0'
+0#
+0+
+#95
+b1010 2
+1'
+1#
+1+
+#100
+0'
+0#
+0+
+#105
+b1011 2
+1'
+1#
+1+
+#110
+0'
+0#
+0+
+#115
+b1100 2
+1'
+1#
+1+
+#120
+0'
+0#
+0+
+#125
+b1101 2
+1'
+1#
+1+
+#130
+0'
+0#
+0+
+#135
+b1110 2
+1'
+1#
+1+
+#140
+0'
+0#
+0+
+#145
+b1111 2
+1'
+1#
+1+
+#150
+0'
+0#
+0+
+#155
+1,
+b10000 2
+1'
+1#
+1+
+#160
+0'
+0#
+0+
+#165
+b10001 2
+1'
+1#
+1+
+#170
+0'
+0#
+0+
+#175
+b10010 2
+1'
+1#
+1+
+#180
+0'
+0#
+0+
+#185
+b10011 2
+1'
+1#
+1+
+#190
+0'
+0#
+0+
+#195
+b10100 2
+1'
+1#
+1+
+#200
+0'
+0#
+0+
+#205
+0,
+01
+0$
+b1 8
+b1000000000000 7
+b1000000000000 &
+b1000000000000 -
+b0 2
+b1 5
+14
+b1000000000000 *
+b1000000000000 0
+1)
+1/
+1'
+1#
+1+
+#210
+04
+0'
+0#
+0+
+#215
+b1 2
+b1000000000000z 7
+b1000000000000z &
+b1000000000000z -
+1'
+1#
+1+
+#220
+0'
+0#
+0+
+#225
+b1000000000000zz 7
+b1000000000000zz &
+b1000000000000zz -
+b10 2
+1'
+1#
+1+
+#230
+0'
+0#
+0+
+#235
+1"
+b11 2
+b1000000000000zzz 7
+b1000000000000zzz &
+b1000000000000zzz -
+1'
+1#
+1+
+#240
+0'
+0#
+0+
+#245
+0"
+b0zzzz 7
+b0zzzz &
+b0zzzz -
+b100 2
+1'
+1#
+1+
+#250
+0'
+0#
+0+
+#255
+b101 2
+b0zzzzz 7
+b0zzzzz &
+b0zzzzz -
+1'
+1#
+1+
+#260
+0'
+0#
+0+
+#265
+b0zzzzzz 7
+b0zzzzzz &
+b0zzzzzz -
+b110 2
+1'
+1#
+1+
+#270
+0'
+0#
+0+
+#275
+b111 2
+b0zzzzzzz 7
+b0zzzzzzz &
+b0zzzzzzz -
+1'
+1#
+1+
+#280
+0'
+0#
+0+
+#285
+b0zzzzzzzz 7
+b0zzzzzzzz &
+b0zzzzzzzz -
+b1000 2
+1'
+1#
+1+
+#290
+0'
+0#
+0+
+#295
+b1001 2
+b0zzzzzzzzz 7
+b0zzzzzzzzz &
+b0zzzzzzzzz -
+1'
+1#
+1+
+#300
+0'
+0#
+0+
+#305
+b0zzzzzzzzzz 7
+b0zzzzzzzzzz &
+b0zzzzzzzzzz -
+b1010 2
+1'
+1#
+1+
+#310
+0'
+0#
+0+
+#315
+b1011 2
+b0zzzzzzzzzzz 7
+b0zzzzzzzzzzz &
+b0zzzzzzzzzzz -
+1'
+1#
+1+
+#320
+0'
+0#
+0+
+#325
+b0zzzzzzzzzzzz 7
+b0zzzzzzzzzzzz &
+b0zzzzzzzzzzzz -
+b1100 2
+1'
+1#
+1+
+#330
+0'
+0#
+0+
+#335
+b1101 2
+b0zzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzz &
+b0zzzzzzzzzzzzz -
+1'
+1#
+1+
+#340
+0'
+0#
+0+
+#345
+b0zzzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzzz &
+b0zzzzzzzzzzzzzz -
+b1110 2
+1'
+1#
+1+
+#350
+0'
+0#
+0+
+#355
+b1111 2
+b0zzzzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzzzz &
+b0zzzzzzzzzzzzzzz -
+1'
+1#
+1+
+#360
+0'
+0#
+0+
+#365
+z"
+1,
+bz 7
+bz &
+bz -
+b10000 2
+1'
+1#
+1+
+#370
+b10 5
+0'
+0#
+0+
+#375
+b10001 2
+b10 8
+1'
+1#
+1+
+#380
+b0 5
+16
+0'
+0#
+0+
+#385
+0)
+0/
+11
+1$
+13
+1%
+b0 8
+b10010 2
+16
+1'
+1#
+1+
+#390
+06
+0'
+0#
+0+
+#395
+0,
+0"
+b0 2
+b1000000000000 7
+b1000000000000 &
+b1000000000000 -
+b1 8
+03
+0%
+01
+0$
+b1 5
+14
+1)
+1/
+1'
+1#
+1+
+#400
+04
+0'
+0#
+0+
+#405
+b1000000000000z 7
+b1000000000000z &
+b1000000000000z -
+b1 2
+1'
+1#
+1+
+#410
+0'
+0#
+0+
+#415
+b10 2
+b1000000000000zz 7
+b1000000000000zz &
+b1000000000000zz -
+1'
+1#
+1+
+#420
+0'
+0#
+0+
+#425
+1"
+b1000000000000zzz 7
+b1000000000000zzz &
+b1000000000000zzz -
+b11 2
+1'
+1#
+1+
+#430
+0'
+0#
+0+
+#435
+0"
+b100 2
+b0zzzz 7
+b0zzzz &
+b0zzzz -
+1'
+1#
+1+
+#440
+0'
+0#
+0+
+#445
+b0zzzzz 7
+b0zzzzz &
+b0zzzzz -
+b101 2
+1'
+1#
+1+
+#450
+0'
+0#
+0+
+#455
+b110 2
+b0zzzzzz 7
+b0zzzzzz &
+b0zzzzzz -
+1'
+1#
+1+
+#460
+0'
+0#
+0+
+#465
+b0zzzzzzz 7
+b0zzzzzzz &
+b0zzzzzzz -
+b111 2
+1'
+1#
+1+
+#470
+0'
+0#
+0+
+#475
+b1000 2
+b0zzzzzzzz 7
+b0zzzzzzzz &
+b0zzzzzzzz -
+1'
+1#
+1+
+#480
+0'
+0#
+0+
+#485
+b0zzzzzzzzz 7
+b0zzzzzzzzz &
+b0zzzzzzzzz -
+b1001 2
+1'
+1#
+1+
+#490
+0'
+0#
+0+
+#495
+b1010 2
+b0zzzzzzzzzz 7
+b0zzzzzzzzzz &
+b0zzzzzzzzzz -
+1'
+1#
+1+
+#500
+0'
+0#
+0+
+#505
+b0zzzzzzzzzzz 7
+b0zzzzzzzzzzz &
+b0zzzzzzzzzzz -
+b1011 2
+1'
+1#
+1+
+#510
+0'
+0#
+0+
+#515
+b1100 2
+b0zzzzzzzzzzzz 7
+b0zzzzzzzzzzzz &
+b0zzzzzzzzzzzz -
+1'
+1#
+1+
+#520
+0'
+0#
+0+
+#525
+b0zzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzz &
+b0zzzzzzzzzzzzz -
+b1101 2
+1'
+1#
+1+
+#530
+0'
+0#
+0+
+#535
+b1110 2
+b0zzzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzzz &
+b0zzzzzzzzzzzzzz -
+1'
+1#
+1+
+#540
+0'
+0#
+0+
+#545
+b0zzzzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzzzz &
+b0zzzzzzzzzzzzzzz -
+b1111 2
+1'
+1#
+1+
+#550
+0'
+0#
+0+
+#555
+1,
+z"
+b10000 2
+bz 7
+bz &
+bz -
+1'
+1#
+1+
+#560
+b10 5
+0'
+0#
+0+
+#565
+b10 8
+b10001 2
+1'
+1#
+1+
+#570
+b0 5
+16
+0'
+0#
+0+
+#575
+0)
+0/
+b10010 2
+b0 8
+13
+1%
+11
+1$
+16
+1'
+1#
+1+
+#580
+06
+0'
+0#
+0+
+#585
+0"
+0,
+01
+0$
+03
+0%
+b1 8
+b1100000000000 7
+b1100000000000 &
+b1100000000000 -
+b0 2
+b1 5
+14
+b1100000000000 *
+b1100000000000 0
+1)
+1/
+1'
+1#
+1+
+#590
+04
+0'
+0#
+0+
+#595
+b1 2
+b1100000000000z 7
+b1100000000000z &
+b1100000000000z -
+1'
+1#
+1+
+#600
+0'
+0#
+0+
+#605
+b1100000000000zz 7
+b1100000000000zz &
+b1100000000000zz -
+b10 2
+1'
+1#
+1+
+#610
+0'
+0#
+0+
+#615
+1"
+b11 2
+b1100000000000zzz 7
+b1100000000000zzz &
+b1100000000000zzz -
+1'
+1#
+1+
+#620
+0'
+0#
+0+
+#625
+b100000000000zzzz 7
+b100000000000zzzz &
+b100000000000zzzz -
+b100 2
+1'
+1#
+1+
+#630
+0'
+0#
+0+
+#635
+0"
+b101 2
+b0zzzzz 7
+b0zzzzz &
+b0zzzzz -
+1'
+1#
+1+
+#640
+0'
+0#
+0+
+#645
+b0zzzzzz 7
+b0zzzzzz &
+b0zzzzzz -
+b110 2
+1'
+1#
+1+
+#650
+0'
+0#
+0+
+#655
+b111 2
+b0zzzzzzz 7
+b0zzzzzzz &
+b0zzzzzzz -
+1'
+1#
+1+
+#660
+0'
+0#
+0+
+#665
+b0zzzzzzzz 7
+b0zzzzzzzz &
+b0zzzzzzzz -
+b1000 2
+1'
+1#
+1+
+#670
+0'
+0#
+0+
+#675
+b1001 2
+b0zzzzzzzzz 7
+b0zzzzzzzzz &
+b0zzzzzzzzz -
+1'
+1#
+1+
+#680
+0'
+0#
+0+
+#685
+b0zzzzzzzzzz 7
+b0zzzzzzzzzz &
+b0zzzzzzzzzz -
+b1010 2
+1'
+1#
+1+
+#690
+0'
+0#
+0+
+#695
+b1011 2
+b0zzzzzzzzzzz 7
+b0zzzzzzzzzzz &
+b0zzzzzzzzzzz -
+1'
+1#
+1+
+#700
+0'
+0#
+0+
+#705
+b0zzzzzzzzzzzz 7
+b0zzzzzzzzzzzz &
+b0zzzzzzzzzzzz -
+b1100 2
+1'
+1#
+1+
+#710
+0'
+0#
+0+
+#715
+b1101 2
+b0zzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzz &
+b0zzzzzzzzzzzzz -
+1'
+1#
+1+
+#720
+0'
+0#
+0+
+#725
+b0zzzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzzz &
+b0zzzzzzzzzzzzzz -
+b1110 2
+1'
+1#
+1+
+#730
+0'
+0#
+0+
+#735
+b1111 2
+b0zzzzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzzzz &
+b0zzzzzzzzzzzzzzz -
+1'
+1#
+1+
+#740
+0'
+0#
+0+
+#745
+z"
+1,
+bz 7
+bz &
+bz -
+b10000 2
+1'
+1#
+1+
+#750
+b10 5
+0'
+0#
+0+
+#755
+b10001 2
+b10 8
+1'
+1#
+1+
+#760
+b0 5
+16
+0'
+0#
+0+
+#765
+0)
+0/
+11
+1$
+13
+1%
+b0 8
+b10010 2
+16
+1'
+1#
+1+
+#770
+06
+0'
+0#
+0+
+#775
+0,
+0"
+b0 2
+b1100000000000 7
+b1100000000000 &
+b1100000000000 -
+b1 8
+03
+0%
+01
+0$
+b1 5
+14
+1)
+1/
+1'
+1#
+1+
+#780
+04
+0'
+0#
+0+
+#785
+b1100000000000z 7
+b1100000000000z &
+b1100000000000z -
+b1 2
+1'
+1#
+1+
+#790
+0'
+0#
+0+
+#795
+b10 2
+b1100000000000zz 7
+b1100000000000zz &
+b1100000000000zz -
+1'
+1#
+1+
+#800
+0'
+0#
+0+
+#805
+1"
+b1100000000000zzz 7
+b1100000000000zzz &
+b1100000000000zzz -
+b11 2
+1'
+1#
+1+
+#810
+0'
+0#
+0+
+#815
+b100 2
+b100000000000zzzz 7
+b100000000000zzzz &
+b100000000000zzzz -
+1'
+1#
+1+
+#820
+0'
+0#
+0+
+#825
+0"
+b0zzzzz 7
+b0zzzzz &
+b0zzzzz -
+b101 2
+1'
+1#
+1+
+#830
+0'
+0#
+0+
+#835
+b110 2
+b0zzzzzz 7
+b0zzzzzz &
+b0zzzzzz -
+1'
+1#
+1+
+#840
+0'
+0#
+0+
+#845
+b0zzzzzzz 7
+b0zzzzzzz &
+b0zzzzzzz -
+b111 2
+1'
+1#
+1+
+#850
+0'
+0#
+0+
+#855
+b1000 2
+b0zzzzzzzz 7
+b0zzzzzzzz &
+b0zzzzzzzz -
+1'
+1#
+1+
+#860
+0'
+0#
+0+
+#865
+b0zzzzzzzzz 7
+b0zzzzzzzzz &
+b0zzzzzzzzz -
+b1001 2
+1'
+1#
+1+
+#870
+0'
+0#
+0+
+#875
+b1010 2
+b0zzzzzzzzzz 7
+b0zzzzzzzzzz &
+b0zzzzzzzzzz -
+1'
+1#
+1+
+#880
+0'
+0#
+0+
+#885
+b0zzzzzzzzzzz 7
+b0zzzzzzzzzzz &
+b0zzzzzzzzzzz -
+b1011 2
+1'
+1#
+1+
+#890
+0'
+0#
+0+
+#895
+b1100 2
+b0zzzzzzzzzzzz 7
+b0zzzzzzzzzzzz &
+b0zzzzzzzzzzzz -
+1'
+1#
+1+
+#900
+0'
+0#
+0+
+#905
+b0zzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzz &
+b0zzzzzzzzzzzzz -
+b1101 2
+1'
+1#
+1+
+#910
+0'
+0#
+0+
+#915
+b1110 2
+b0zzzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzzz &
+b0zzzzzzzzzzzzzz -
+1'
+1#
+1+
+#920
+0'
+0#
+0+
+#925
+b0zzzzzzzzzzzzzzz 7
+b0zzzzzzzzzzzzzzz &
+b0zzzzzzzzzzzzzzz -
+b1111 2
+1'
+1#
+1+
+#930
+0'
+0#
+0+
+#935
+1,
+z"
+b10000 2
+bz 7
+bz &
+bz -
+1'
+1#
+1+
+#940
+b10 5
+0'
+0#
+0+
+#945
+b10 8
+b10001 2
+1'
+1#
+1+
+#950
+b0 5
+16
+0'
+0#
+0+
+#955

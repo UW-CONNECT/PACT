@@ -1,0 +1,1 @@
+"./als_trxeb.obj" "./bsp.obj" "./bsp_key.obj" "./bsp_led.obj" "./bsp_uart.obj" "./cc112x_spi.obj" "./flash_trxeb.obj" "./hal_int.obj" "./hal_spi_rf_trxeb.obj" "./io_pin_int.obj" "./lcd_dogm128_6.obj" "./lcd_dogm128_6_alphabet.obj" "./lcd_trxeb.obj" "./main.obj" "../lnk_msp430f5438a.cmd" -llibmath.a -llibc.a 
